@@ -1,10 +1,4 @@
-IPython.display
-IPython.core.display
-os
-csv
-datetime
-json
-urllib.request
-termcolor
+beautifulsoup4
 pandas
-pandas.io.json
+IPython
+termcolor
