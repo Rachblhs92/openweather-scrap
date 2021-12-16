@@ -58,7 +58,7 @@ Pour Fahrenheit, on utilise unité=imperial, pour Celsius, on utilise unité= me
 """
 
 def url_builder(city_id,city_name,country):
-    user_api = '4e0f8959dab541379b863bd8868196a6'  # Obtain yours form: http://openweathermap.org/
+    user_api = '2f1ada7ea283d4d805334d73f23d94f9'  # Obtain yours form: http://openweathermap.org/
     unit = 'metric'  # For Fahrenheit use imperial, for Celsius use metric, and the default is Kelvin.
     if(city_name!=""):
         api = 'http://api.openweathermap.org/data/2.5/weather?q=' # "http://api.openweathermap.org/data/2.5/weather?q=Tunis,fr
